@@ -3,12 +3,12 @@
     "node-forge": "^0.6.37"
   },
   "scripts": {
-    "start": "node server.js"
+    "start": "node  src/server.js"
   },
   "name": "keyserver",
   "description": "* generates server/ca keypair * creates a self-signed cert * creates a CA Store * generates a client keypair * generates client CSR * signs client CSR * generates client cert.",
   "version": "0.0.1",
-  "main": "server.js",
+  "main": "src/server.js",
   "devDependencies": {},
   "repository": {
     "type": "git",
